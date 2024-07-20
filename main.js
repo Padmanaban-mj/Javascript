@@ -1,8 +1,12 @@
-var a=10
-var b=5
+var factor="surya"
+var ffood="friedrice"
+var fmovie="shajahan"
 
-function total()
+function favorites()
 {
-    console.log(a+b)
+    console.log("My favorite actor is :" +factor)
+    console.log("My favorite food is :" +ffood)
+    console.log("My favorite movie is :" +fmovie)
+    
 }
-total()
+favorites()
