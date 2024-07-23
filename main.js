@@ -1,12 +1,9 @@
-var factor="surya"
-var ffood="friedrice"
-var fmovie="shajahan"
+var rain=false
 
-function favorites()
+if (rain)
 {
-    console.log("My favorite actor is :" +factor)
-    console.log("My favorite food is :" +ffood)
-    console.log("My favorite movie is :" +fmovie)
-    
+console.log("enjoy the rain")
 }
-favorites()
+else{
+    console.log("enjoy the sunshine")
+}
